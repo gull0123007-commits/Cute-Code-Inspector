@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/inspect",
+      "destination": "/api/inspect.js"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
